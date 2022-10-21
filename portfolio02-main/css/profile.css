@@ -1,0 +1,303 @@
+
+
+
+.profile-main {
+    max-width: 100vw;
+    width: 100%;
+    padding: 80px 5vw 3vh 5vw;
+}
+
+
+.profile-main h2 {
+    font-size: 2.8em;
+    text-transform: capitalize;
+
+}
+
+
+.profile-conteiner {
+    display: flex;
+    justify-content: center;
+    /* padding: 70px 0; */
+    max-width: 100vw;
+    width: 100%;
+    /* flex-wrap: wrap; */
+
+}
+
+.profile-text {
+    width: 70%;
+    display: flex;
+    /* margin: 0 5vw; */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.profile-text p {
+    width: 80%;
+    align-items: center;
+    text-align: left;
+}
+
+
+.name-font {
+    writing-mode: vertical-rl;
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+.name {
+    line-height: 40px;
+    /* display: block; */
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+
+.name h3 {
+    font-size: 2.4em;
+}
+
+.profile-text p {
+    margin: 0 5vw;
+    margin: 0 auto;
+}
+
+
+.profile-images {
+    display: flex;
+    margin: 0 auto;
+    /* margin-right: 3vw; */
+
+
+}
+
+.profile-image {
+    width: 420px;
+    height: 530px;
+    
+}
+
+.profile-image img {
+    width: 100%;    
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* ===================profile-main of end============================== */
+
+/* =======================hobby=========================== */
+
+.hobby {
+    width: 100%;
+    padding: 70px 0;
+
+}
+
+.hobby-title h2 {
+    font-size: 2.8em;
+    text-transform: capitalize;
+    padding: 0 0 18px 5vw;
+
+}
+
+.profile-conteiner {
+    width: 100%;
+}
+
+.hobby-conteiner {
+    max-width: 100vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.illust-image {
+    width: 320px;
+    height: 460px;
+    margin: 0 auto;
+
+}
+
+.illust-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.illust-text {
+    padding: 0 20%;
+}
+
+.illust-text h3 {
+    font-size: 2.2em;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ===================hobby of end============================== */
+
+/* =================special_skill ============================= */
+
+.specialskill {
+    width: 100%;
+    /* padding: 0 5vw; */
+}
+
+.special-title {
+    width: 100%;
+}
+
+.special-title h2 {
+    font-size: 2.8em;
+    text-transform: capitalize;
+    padding: 0 0 18px 5vw;
+
+
+}
+
+.special-contents {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 ;
+
+
+}
+
+.special-image1 {
+    width: 380px;
+    height: 460px;
+    /* margin: 0 auto; */
+    
+}
+
+.special-image1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.special-text h3 {
+    font-size: 2.2em;
+    /* padding: 20px 0; */
+    text-align: center;
+
+}
+
+.special-text {
+    padding: 0 30px;
+    width: 45vw;
+    /* padding: 0 10%; */
+    /* margin: auto 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.special-text p {
+    padding: 0 20px;
+    /* align-items: center; */
+    /* width: 100%; */
+    /* margin: 0 auto; */
+
+}
+
+.special-image2 {
+    width: 45vw;
+    height: 200px;
+    padding: 0 30px;
+    /* margin: 0 auto;     */
+}
+
+.special-image2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position : 10% 10%; 
+
+}
+
+/* ==================specialskill of end============================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .profile-conteiner {
+        flex-wrap: wrap;
+        
+    }
+
+    .name-font {
+        /* position: absolute;
+        font-size: 2.8em;
+        right: 0; */
+        display: none;
+
+    } 
+
+    .profile-text p {
+        width: 100%;
+        align-items: center;
+        text-align: left;
+        padding-bottom: 32px;
+    }
+
+    .profile-image {
+        width: 260px;
+        height: 320px;
+        position: relative;
+        
+    }
+
+    /* ============================ */
+
+    .hoby-conteiner{
+        flex-wrap: wrap;
+    }
+
+    .illust {
+        padding: 20px 0;
+    
+    }
+
+    .specail-contents {
+        flex-wrap: wrap;
+    }
+
+    .specail-text {
+        width: 100%;
+    }
+
+    .specail-text p {
+        padding: 30px;
+    }
+
+    .specail-text {
+        padding: 0;
+    }
+
+
+
+    .specail-image2 {
+        width: 100vw;
+    }
+} 
